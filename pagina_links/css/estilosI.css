@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+  
+}
+
+h1{
+    font-family: Stencil Std, fantasy;
+    font-weight: 60;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.app-bar{
+    display: flex;
+    align-items: center;
+    background: orangered;
+    padding: 2px 20px;
+    gap: 30px;
+}
+
+.app-bar button{
+    padding: 5px 5px;
+    font-size: 16px;
+    background-color: orangered;
+    font-weight: 800;
+    border: 2px solid #ffffff;
+    border-color: aliceblue;
+    border-radius: 20%;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.app-bar h2{
+    color: #ffffff;
+}
+
+.app-bar input{
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    padding: 10px 10px 10px 35px;
+
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 16px;
+}
+
+.itens-menu h1{
+    font-family: Stencil Std, fantasy;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+}
+
+.itens_prod{
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.2);
+    border: 8px solid orangered;
+}
+
+.itens_prod img{
+    border: 8px solid orangered;
+    width: 86%;
+}
